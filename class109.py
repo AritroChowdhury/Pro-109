@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import statistics
 import random
 
-df = pd.read_csv("StudentsPerformance.csv")
+df = pd.read_csv("StudentsPerformance1.csv")
 data = df["reading score"].tolist()
 
 mean = sum(data) / len(data)
